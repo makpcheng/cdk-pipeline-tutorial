@@ -6,7 +6,8 @@ import { CdkpipelinesDemoStack } from '../lib/cdkpipelines-demo-stack';
 import { App } from '@aws-cdk/core';
 const app = new App();
 //const app = new cdk.App();
-new CdkpipelinesDemoStack(app, 'CdkpipelinesDemoStack', {
+new CdkpipelinesDemoPipelineStack(app, 'CdkpipelinesDemoPipelineStack', {
+//new CdkpipelinesDemoStack(app, 'CdkpipelinesDemoStack', {
   /* If you don't specify 'env', this stack will be environment-agnostic.
    * Account/Region-dependent features and context lookups will not work,
    * but a single synthesized template can be deployed anywhere. */
